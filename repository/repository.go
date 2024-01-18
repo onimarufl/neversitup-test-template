@@ -16,7 +16,7 @@ func NewRepository() *repository {
 }
 
 func (r repository) GetUser() ([]byte, error) {
-	byteValue, err := ioutil.ReadFile("./mock_data/mock_resp.json")
+	byteValue, err := ioutil.ReadFile("./mock_data/mock_data.json")
 	if err != nil {
 		return nil, err
 	}
