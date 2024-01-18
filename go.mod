@@ -3,7 +3,6 @@ module github.com/onimarufl/neversitup-test-template
 go 1.21.0
 
 require (
-	github.com/go-playground/assert/v2 v2.2.0
 	github.com/go-playground/validator/v10 v10.17.0
 	github.com/gofiber/fiber/v3 v3.0.0-20240117084726-a776d2933ef4
 	github.com/spf13/viper v1.18.2
